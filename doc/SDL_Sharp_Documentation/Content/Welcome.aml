@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="32315a1d-3187-44ea-90b0-6f6dbf9e96bc" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>This is SDL2#, a C# wrapper for SDL2.</para>
+		</introduction>
+
+		<section>
+			<title>License</title>
+			<content>
+				<para>
+          SDL2 and SDL2# are released under the zlib license. See LICENSE for details.
+          SDL2# currently uses parts of OpenTK, which is released under the MIT license.
+          See opentk.LICENSE for details.
+        </para>
+			</content>
+		</section>
+    <section>
+      <title>About the C# Wrapper</title>
+      <content>
+        <para>
+          this is written in a way that can be used for any general C# application.
+          
+          The wrapper provides bindings for the following libraries:
+          - SDL2
+          - SDL2_image
+          - SDL2_mixer
+          - SDL2_ttf
+          
+          We also provide bindings for OpenGL and OpenAL, taken from OpenTK.
+          
+          Note that SDL2# will not provide every single SDL2 function. This is due to
+          limitations in the C# language that would cause major conflicts with the native
+          SDL2 library and its extensions.
+          
+          SDL2# is a pure port of the C headers. The naming schemes for this library will
+          be exactly as they are done in the C library, with little-to-no concern for
+          "appropriate" C# style. The namespace indicates that this is SDL2, the class
+          names will indicate which library file the function/type/value exists in, and
+          everything else will be as close to the C version as technically possible.
+          
+          Roadmap
+          -------
+          To see the current roadmap for SDL2#, visit the GitHub issues page:
+          
+          https://github.com/flibitijibibo/SDL2-CS/issues
+        </para>
+      </content>
+    </section>
+
+		<relatedTopics>
+			<externalLink>
+          <linkText>SDL WIKI</linkText>
+          <linkUri>http://wiki.libsdl.org/moin.fcg/FrontPage</linkUri>
+      </externalLink>
+      <externalLink>
+          <linkText>SDL# Roadmap</linkText>
+          <linkUri>https://github.com/flibitijibibo/SDL2-CS/issues</linkUri>
+      </externalLink>
+      <externalLink>
+          <linkText>Online Code Documentation</linkText>
+          <linkUri>https://TRex22.github.io/SDL2-CS</linkUri>
+      </externalLink>
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

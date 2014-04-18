@@ -1,16 +1,29 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL2-CS", "SDL2-CS.csproj", "{85480198-8711-4355-830E-72FD794AD3F6}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "SDL_Sharp_Documentation", "doc\SDL_Sharp_Documentation\SDL_Sharp_Documentation.shfbproj", "{46F08FF1-10A4-451C-9A00-E58D0485B229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D98A1F41-501A-4136-BE4D-F8915AB078AC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		Makefile = Makefile
+		opentk.LICENSE = opentk.LICENSE
+		README = README
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{85480198-8711-4355-830E-72FD794AD3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -25,6 +38,17 @@ Global
 		{85480198-8711-4355-830E-72FD794AD3F6}.Release|x64.Build.0 = Release|x64
 		{85480198-8711-4355-830E-72FD794AD3F6}.Release|x86.ActiveCfg = Release|x86
 		{85480198-8711-4355-830E-72FD794AD3F6}.Release|x86.Build.0 = Release|x86
+		{46F08FF1-10A4-451C-9A00-E58D0485B229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F08FF1-10A4-451C-9A00-E58D0485B229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F08FF1-10A4-451C-9A00-E58D0485B229}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{46F08FF1-10A4-451C-9A00-E58D0485B229}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46F08FF1-10A4-451C-9A00-E58D0485B229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F08FF1-10A4-451C-9A00-E58D0485B229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F08FF1-10A4-451C-9A00-E58D0485B229}.Release|x64.ActiveCfg = Release|Any CPU
+		{46F08FF1-10A4-451C-9A00-E58D0485B229}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = SDL2-CS.csproj
